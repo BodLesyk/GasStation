@@ -98,22 +98,22 @@ namespace Gas_Station
                 for (int i = 0; i <= amountOfPatrol; i++)
                 {
                     Thread.Sleep(200);
-                    Console.Write($"\rZapravlyaem {benz95} " + i + "l");
+                    Console.Write($"\rЗаправляем {benz95} " + i + "l");
 
                 }
                 Console.WriteLine("\n--------------------");
-                Console.WriteLine($"Spasibo za ogidanie, vi zapravilis na {amountOfPatrol} litrov. ");
+                Console.WriteLine($"Спасибо за ожидание, вы заправились на {amountOfPatrol} литров. ");
                 Console.WriteLine("--------------------");
-                Console.WriteLine($"S vas {amountOfPatrol * 65} grn. Budete platit kartoy ili nalishnumi?");
-                Console.WriteLine("1. Karta \n2. Nalichnue");
+                Console.WriteLine($"С Вас {amountOfPatrol * 65} grn. Будете платить картой или наличными?");
+                Console.WriteLine("1. Карта \n2. Наличные");
                 Console.WriteLine("--------------------");
                 int oplata = Convert.ToInt32(Console.ReadLine());
 
                 if (oplata == 1 || oplata == 2)
                 {
                     Console.WriteLine("--------------------");
-                    Console.WriteLine("Oplata proshla uspeshno, spasibo chto bubrali nashu zapravku!");
-                    Console.WriteLine("Zdem vas Eshe! Do svidaniya!");
+                    Console.WriteLine("Оплата прошла успешно!");
+                    Console.WriteLine("Ждем вас еще, до свидания!");
                 }
 
                 Console.ReadKey();
@@ -125,13 +125,13 @@ namespace Gas_Station
                 for (int i = 0; i <= amountOfPatrol; i++)
                 {
                     Thread.Sleep(200);
-                    Console.Write($"\rZapravlyaem {gas} " + i + "l");
+                    Console.Write($"\rЗаправляем {gas} " + i + "l");
 
                 }
                 Console.WriteLine("\n--------------------");
-                Console.WriteLine($"Spasibo za ogidanie, vi zapravilis na {amountOfPatrol} litrov. ");
+                Console.WriteLine($"Спасибо за ожидание, вы заправились на {amountOfPatrol} литров. ");
                 Console.WriteLine("--------------------");
-                Console.WriteLine($"S vas {amountOfPatrol * 40} grn. Budete platit kartoy ili nalishnumi?");
+                Console.WriteLine($"С Вас {amountOfPatrol * 40} grn. Будете платить картой или наличными?");
                 Console.WriteLine("1. Karta \n2. Nalichnue");
                 Console.WriteLine("--------------------");
                 int oplata = Convert.ToInt32(Console.ReadLine());
@@ -139,7 +139,7 @@ namespace Gas_Station
                 if (oplata == 1 || oplata == 2)
                 {
                     Console.WriteLine("--------------------");
-                    Console.WriteLine("Oplata proshla uspeshno, spasibo chto bubrali nashu zapravku!");
+                    Console.WriteLine("Оплата прошла успешно, spasibo chto bubrali nashu zapravku!");
                     Console.WriteLine("Zdem vas Eshe! Do svidaniya!");
                 }
 
