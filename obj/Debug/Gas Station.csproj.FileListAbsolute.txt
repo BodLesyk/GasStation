@@ -1,0 +1,7 @@
+C:\Users\Богдан\source\repos\Gas Station\Gas Station\bin\Debug\Gas Station.exe.config
+C:\Users\Богдан\source\repos\Gas Station\Gas Station\bin\Debug\Gas Station.exe
+C:\Users\Богдан\source\repos\Gas Station\Gas Station\bin\Debug\Gas Station.pdb
+C:\Users\Богдан\source\repos\Gas Station\Gas Station\obj\Debug\Gas Station.csproj.AssemblyReference.cache
+C:\Users\Богдан\source\repos\Gas Station\Gas Station\obj\Debug\Gas Station.csproj.CoreCompileInputs.cache
+C:\Users\Богдан\source\repos\Gas Station\Gas Station\obj\Debug\Gas Station.exe
+C:\Users\Богдан\source\repos\Gas Station\Gas Station\obj\Debug\Gas Station.pdb
