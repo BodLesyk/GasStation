@@ -16,7 +16,7 @@ namespace Gas_Station
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Добро пожаловать на нашу заправку ! =)");
+            Console.WriteLine("Добро пожаловать на нашу заправку !!! =)");
             Console.WriteLine("Какое топливо желаете?");
             string benz92 = "Бензин-92";
             string benz95 = "Бензин-95";
